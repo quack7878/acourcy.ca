@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+}
+
+body, html {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+body {
+  flex-direction: column;
+  margin: 0;
+  text-transform: full-width;
+}
+
+#header {
+  display: flex;
+  align-self: stretch;
+  background-color: #a6ca93;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#header-buttons {
+  display: flex;
+  align-self: end;
+  padding: 8px;
+}
+
+#projects-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#projects-link:hover {
+  color: white;
+}
+
+#name {
+  font-size: 40px;
+  align-self: center;
+}
+
+#main-container {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  padding-left: 34px;
+}
+
+#projects {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+#rotationeasy-container {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+.separator {
+  width: 90%;
+  height: 2px;
+  background-color: #ebedee;
+}
+
+.titles {
+  font-size: 24px;
+}
+
+.subtitles {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.chip {
+  border-radius: 4px; 
+  padding: 2px;
+}

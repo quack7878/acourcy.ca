@@ -28,6 +28,10 @@ body {
   padding: 8px;
 }
 
+#github-svg {
+  width: 24px;
+}
+
 #projects-link {
   text-decoration: none;
   color: black;
@@ -35,12 +39,27 @@ body {
 }
 
 #projects-link:hover {
-  color: white;
+  color: #ebedee;
+}
+
+.header-separators {
+  width: 1px;
+  background-color: #ebedee;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#under-name {
+  width: 60%;
+  height: 2px;
+  background-color: #ebedee;
+  align-self: center;
 }
 
 #name {
   font-size: 40px;
   align-self: center;
+  margin: 16px;
 }
 
 #main-container {

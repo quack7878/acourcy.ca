@@ -21,13 +21,14 @@ body {
   background-color: #a6ca93;
   justify-content: center;
   flex-direction: column;
+  padding: 4px;
 }
 
 #header-buttons {
   display: flex;
   align-self: end;
-  padding: 8px;
   margin-top: auto;
+  padding-right: 8px;
 }
 
 .github-svg {

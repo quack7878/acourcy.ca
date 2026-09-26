@@ -63,12 +63,11 @@ body {
 }
 
 #name {
-  font-size: 40px;
+  font-size: 1.8rem;
   align-self: center;
-  margin: 16px;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  text-wrap: wrap;
 }
 
 #main-container {

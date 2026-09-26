@@ -67,6 +67,8 @@ body {
   align-self: center;
   margin: 16px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #main-container {
@@ -89,6 +91,11 @@ body {
   align-self: stretch;
   flex-direction: column;
   padding-left: 8px;
+}
+
+#rotationeasy-desc {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .separator {
